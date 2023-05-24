@@ -1,0 +1,91 @@
+/*Global Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+p {
+    color: black;
+    text-decoration: none;
+    color: #211d1c;
+}
+
+a {
+    text-decoration: none;
+    color: #211d1c;
+}
+
+/*Navigation*/
+
+body h1 {
+    padding-left: 70px;
+}
+
+header {
+    position: relative;
+    color: white;
+    z-index: 999;
+}
+
+nav a:hover {
+    background-color: #356d81;
+}
+
+nav {
+    background-color: #5A5A5A;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* = 1200px */
+    padding-top: 60px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 15px 20px;
+}
+
+
+
+/*Links to Main Pages*/
+
+article {
+    padding-top: 25px
+}
+
+section {
+    display: flex;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+section div {
+    padding-left: 25px;
+}
+
+/*Footer*/
+address {
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+address a {
+    padding: 20px
+}

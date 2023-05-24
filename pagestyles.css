@@ -1,0 +1,13 @@
+h1 a {
+    position: relative;
+    color: white;
+    z-index: 999;
+}
+
+div {
+    padding-left: 25px;
+}
+
+h2 {
+    padding-top: 60px;
+}
